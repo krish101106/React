@@ -40,7 +40,6 @@ const router = createBrowserRouter(
       <Route path='contact' element={<Contact/>}/>
       <Route path='/' element={<Home/>}/>
       <Route path='about' element={<About/>}>
-
         <Route path='krish' element={<Krish/>}/>
       </Route>
       <Route path='user/:userid' element={<User/>}/>
@@ -57,7 +56,7 @@ const router = createBrowserRouter(
 //       <Route path='' element={<Home />} />
 //       <Route path='about' element={<About />} />
       
-       
+        
 //     </Route>
 //   )
 // )

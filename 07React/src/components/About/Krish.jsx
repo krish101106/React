@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 function Krish() {
   return (
-    <div>
+    <div >
       Github
-        krish101106
+      krish101106
       
     </div>
   )
