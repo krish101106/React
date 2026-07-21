@@ -1,0 +1,26 @@
+//installing react with vite
+
+npm create vite@latest my-project
+cd my-project
+
+
+//installing tailwind
+
+npm install tailwindcss @tailwindcss/vite
+
+
+// tailwind vite.config.js
+
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+
+
+//.css file header
+
+@import "tailwindcss";
